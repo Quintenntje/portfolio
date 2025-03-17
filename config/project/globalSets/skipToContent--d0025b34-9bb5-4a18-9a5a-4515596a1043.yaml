@@ -1,0 +1,44 @@
+fieldLayouts:
+  74017b9f-bf78-4e9d-bd15-97f49f6fd89e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-03-13T17:24:53+00:00'
+            elementCondition: null
+            fieldUid: 2111f3c3-64f4-4fc7-b472-16660716f927 # Simple Text
+            handle: skipToContentId
+            includeInCards: false
+            instructions: null
+            label: 'Skip To Content Id'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c96214b-6a7c-4975-8bbf-93223d52155a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-13T17:24:53+00:00'
+            elementCondition: null
+            fieldUid: 2111f3c3-64f4-4fc7-b472-16660716f927 # Simple Text
+            handle: skipToContentText
+            includeInCards: false
+            instructions: null
+            label: 'Skip To Content Text'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1f336e6a-6840-4548-8bdd-95d35a66c7e7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5fa5d48f-5a6b-4940-9ae7-260b32aa2ac1
+        userCondition: null
+handle: skipToContent
+name: 'Skip To Content'
+sortOrder: 3

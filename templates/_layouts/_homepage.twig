@@ -1,0 +1,31 @@
+{% extends "_layouts/_nav-footer-cta.twig" %}
+{% import "_macros/_general.twig" as general  %}
+
+{% block main %}
+
+    <section class="hero container">
+        <div>
+            <span>{{ entry.heroHeadingSmall }}</span>
+            <h1>{{ entry.heroHeading }}</h1>
+            <div class="hero__links">
+            {% for heroLink in entry.heroLinks %}
+                {{ general.link(heroLink.href, "_self", heroLink.href.label, heroLink.linkVariant) }}
+            {% endfor %}
+            </div>
+
+        </div>
+        <div>
+            <img src="{{ entry.heroImage.one().url }}" alt="{{ entry.heroImage.title }}">
+        </div>
+    </section>
+
+
+    <section>
+        {% set pageHeader = craft.entries().section('homepage').type("projectPage").all() %}
+{{ dump(pageHeader) }}
+
+    </section>
+
+
+
+{% endblock %}

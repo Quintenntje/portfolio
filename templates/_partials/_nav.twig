@@ -1,0 +1,22 @@
+
+<nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__logo">
+        <a href="{{ navItems[0].href.url }}">
+    {{ navItems[0].title }}
+        </a>
+    </div>
+    <ul id="nav-list" class="nav__list">
+        {% for item in navItems %}
+            {% if item.title != "Logo" %}
+
+            <li class="nav__list-item">
+                <a class="list-item__link list-item__link--hover {% if craft.app.request.absoluteUrl  == item.href.url %}  list-item__link--active{% endif %}"  {% if craft.app.request.absoluteUrl  == item.href.url %} aria-current="page" {% endif%} href="{{ item.href.url }}">{{ item.title }}</a>
+            </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    <div class="nav__icon--mobile-visible">
+       <button id="open-nav" class="btn--transparent" aria-label="Open menu" aria-expanded="false" aria-controls="nav-list" ><i class="icon icon--big fas fa-{{ hamburger.hamburgerIcon }}"></i></button>
+        <button id="close-nav" class="nav__button--hidden nav__menu--top btn--transparent " aria-label="Close menu" aria-controls="nav-list" ><i class="icon icon--big fas fa-{{ hamburger.closeIcon }}"></i></button>
+    </div>
+</nav>

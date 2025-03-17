@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 3f1c8ffa-8f1e-43c7-b90c-abcb45688a43 # CTA
+handle: cta
+maxAuthors: 1
+name: CTA
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  94f96324-ba1c-4e95-bce0-85caf50f9a97: # Quinten Claes
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single

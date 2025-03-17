@@ -1,0 +1,30 @@
+columnSuffix: null
+handle: contentRepeaterOptional
+instructions: null
+name: 'Content Repeater Optional'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - e31e5c43-6391-4464-90b0-90ed0614904b # Heading-Text
+    -
+      __assoc__:
+        -
+          - uid
+          - dddbdeda-cff4-47ba-9c30-4545f3b70774 # Icon Link
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

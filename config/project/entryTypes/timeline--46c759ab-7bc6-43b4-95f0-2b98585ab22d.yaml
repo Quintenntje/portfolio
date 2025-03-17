@@ -1,0 +1,99 @@
+color: lime
+fieldLayouts:
+  d826a7e2-0fdb-480b-801d-93279a9be1b7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-03-09T22:42:49+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 21b52dd4-b05f-4b1e-9a85-754810b20bf4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-09T22:48:45+00:00'
+            elementCondition: null
+            fieldUid: 2111f3c3-64f4-4fc7-b472-16660716f927 # Simple Text
+            handle: timelineYear
+            includeInCards: false
+            instructions: null
+            label: 'Timeline Year'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6835e235-7e3f-4cc9-8092-a6dfd0060725
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-09T22:48:45+00:00'
+            elementCondition: null
+            fieldUid: 2111f3c3-64f4-4fc7-b472-16660716f927 # Simple Text
+            handle: timelineHeading
+            includeInCards: false
+            instructions: null
+            label: 'Timeline Heading'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0e1edf21-7e11-4b49-ad7a-6c664ca0f0d6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-09T22:48:45+00:00'
+            elementCondition: null
+            fieldUid: 015abee2-d29e-411e-87c9-4bfab8d94e49 # Short Description
+            handle: timelineDescription
+            includeInCards: false
+            instructions: null
+            label: 'Timeline Description'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c24aea5c-9556-4bff-ad4d-4a4ddff95fe7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e9a3368b-13c9-442d-86c3-6001b033d17b
+        userCondition: null
+handle: timeline
+hasTitleField: true
+icon: clock
+name: TimeLine
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 1114db53-af25-447d-94b0-18b6adccbb8f # Homepage Hero
+  -
+    uid: 725da338-0d96-4389-8a7e-9e6b3d43ec92 # Home Page Builder
+handle: homepage
+maxAuthors: 1
+name: Homepage
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  94f96324-ba1c-4e95-bce0-85caf50f9a97: # Quinten Claes
+    enabledByDefault: true
+    hasUrls: true
+    template: _layouts/_homepage.twig
+    uriFormat: __home__
+type: single

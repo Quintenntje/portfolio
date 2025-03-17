@@ -1,0 +1,67 @@
+color: purple
+fieldLayouts:
+  bc98c459-ff20-4639-9ec1-227cc4e32923:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-03-10T22:55:42+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 19c6ef6a-ae8f-457e-b8a7-a104a28a33dc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-10T22:57:13+00:00'
+            elementCondition: null
+            fieldUid: f74408ae-3717-4d24-8bfb-1ff94df9ca21 # Content Repeater
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fdd1ba63-b725-43ec-9076-037bd4ae6307
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fdff3881-f6e0-4c3d-b522-0ebcb30993ac
+        userCondition: null
+handle: homePageBuilder
+hasTitleField: true
+icon: house
+name: 'Home Page Builder'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

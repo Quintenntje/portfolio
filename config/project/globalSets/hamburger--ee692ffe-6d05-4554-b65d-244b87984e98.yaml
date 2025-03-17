@@ -1,0 +1,44 @@
+fieldLayouts:
+  f7a98684-5d3f-4ad7-b599-431544668fc3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-03-15T13:13:26+00:00'
+            elementCondition: null
+            fieldUid: bd0ef55f-5545-4270-a7a3-67c7d2fa7733 # Icon Field
+            handle: hamburgerIcon
+            includeInCards: false
+            instructions: null
+            label: 'Hamburger Icon'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f17cfa11-d3b2-4fe8-a4b7-659d65715cc4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-15T13:13:26+00:00'
+            elementCondition: null
+            fieldUid: bd0ef55f-5545-4270-a7a3-67c7d2fa7733 # Icon Field
+            handle: closeIcon
+            includeInCards: false
+            instructions: null
+            label: 'Close Icon'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 06f1ba89-12db-4d3a-b30f-3ceb01f318b4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: bdcc8d13-b04f-43ef-be23-fc513a283e9a
+        userCondition: null
+handle: hamburger
+name: Hamburger
+sortOrder: 5

@@ -1,0 +1,79 @@
+dateModified: 1742160180
+email:
+  fromEmail: quinten.claes@student.arteveldehs.be
+  fromName: 'Quinten Claes'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  media:
+    hasUrls: true
+    name: Media
+    settings:
+      path: '@webroot/assets/media'
+    type: craft\fs\Local
+    url: '@web/assets/media'
+meta:
+  __names__:
+    0e354582-6ecc-4a8d-9c52-6837dc3d96bb: Media # Media
+    1c060abf-4540-478a-bca5-dd35b9b21caa: Form # Form
+    3f1c8ffa-8f1e-43c7-b90c-abcb45688a43: CTA # CTA
+    6e6a2472-ab6f-494f-ac52-497799db33dd: 'Public Schema' # Public Schema
+    8bc8a329-4803-4e5f-a86f-613a2321b6f2: Simple # Simple
+    015abee2-d29e-411e-87c9-4bfab8d94e49: 'Short Description' # Short Description
+    17afd6f9-d500-403e-b493-f285ff3967d7: 'Projects Types' # Projects Types
+    46c759ab-7bc6-43b4-95f0-2b98585ab22d: TimeLine # TimeLine
+    48af5fbc-7222-4fbb-a1b3-3580bde6cd8f: Image # Image
+    64c11004-c21d-44ab-8afc-bdba933ebcba: Homepage # Homepage
+    80dcc588-400d-41d8-ab3f-2ee1f1538a4f: 'Quinten Claes' # Quinten Claes
+    94f96324-ba1c-4e95-bce0-85caf50f9a97: 'Quinten Claes' # Quinten Claes
+    136bfa9c-6e23-4e00-ac2f-388f59a17c2a: 'Contact Page' # Contact Page
+    382e8a48-6e26-4555-b1f6-078b951a4f13: 'Home Page sections' # Home Page sections
+    524e481d-6c68-49fa-bd0c-6bb8102d8cc6: Footer # Footer
+    725da338-0d96-4389-8a7e-9e6b3d43ec92: 'Home Page Builder' # Home Page Builder
+    784d1d1a-5d0a-4a8b-bfab-79184aecaa9f: 'Content Repeater Optional' # Content Repeater Optional
+    1114db53-af25-447d-94b0-18b6adccbb8f: 'Homepage Hero' # Homepage Hero
+    2111f3c3-64f4-4fc7-b472-16660716f927: 'Simple Text' # Simple Text
+    5579e62d-ee31-4c3b-ada3-5948f031ee6d: Images # Images
+    6301d80a-8806-460b-87fb-5fece458997d: 'Rich Text' # Rich Text
+    8543ee3f-4356-4d50-945e-553af5360049: Description # Description
+    47237e1a-f09e-4bc7-b180-3b6f6e29a23d: Projects # Projects
+    943728f2-6d55-4e4c-9e18-62e772182e54: Link # Link
+    16430802-9249-41c3-a022-8c5a8ec13220: 'Image Card' # Image Card
+    ac0b0c6e-c1cf-45a4-9f44-939961bcf75f: 'About me Page' # About me Page
+    aef7941d-85db-4562-9531-f6d6fb4093a1: 'Category Selector' # Category Selector
+    b422501e-d0ab-420f-9286-dcffa1dd1e74: Links # Links
+    bd0ef55f-5545-4270-a7a3-67c7d2fa7733: 'Icon Field' # Icon Field
+    bedaf790-bfaf-4aa9-8d53-506aaa640eda: 'Contact Page' # Contact Page
+    bf628ec7-6c25-4be3-b279-5310856f6f0c: 'Contact Link' # Contact Link
+    bfe36b20-db0e-4ced-926c-f3a29c3a14a2: 'Project Page' # Project Page
+    c1be0904-b687-400e-97fe-6f2c01b7110d: 'Text Page' # Text Page
+    c1be1d0f-0588-41c6-b519-344ab52d7624: 'form Input' # form Input
+    d0025b34-9bb5-4a18-9a5a-4515596a1043: 'Skip To Content' # Skip To Content
+    d6ef4942-3506-48fa-9881-9d50f1d9db2d: 'Project Page' # Project Page
+    d306d3a5-a9f0-4659-836c-57a98cc9291e: Contact # Contact
+    dc5c4e18-7508-47c0-8d40-f9bb7f3353eb: Navigation # Navigation
+    dddbdeda-cff4-47ba-9c30-4545f3b70774: 'Icon Link' # Icon Link
+    de1f43b8-cac0-41dd-b24d-b830af3f5c50: 'page Heading' # page Heading
+    e2ff88b4-577e-47d0-9fb3-dd56019527de: CTA # CTA
+    e5f74c53-e1d9-45b7-9ac9-67cdf7e90697: Card # Card
+    e31e5c43-6391-4464-90b0-90ed0614904b: Heading-Text # Heading-Text
+    ee02f842-0753-4ff6-a9f6-5591f2e3f40b: 'Detail Page' # Detail Page
+    ee692ffe-6d05-4554-b65d-244b87984e98: Hamburger # Hamburger
+    f74408ae-3717-4d24-8bfb-1ff94df9ca21: 'Content Repeater' # Content Repeater
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Quinten Claes'
+  schemaVersion: 5.6.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

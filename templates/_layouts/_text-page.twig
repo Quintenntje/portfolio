@@ -1,0 +1,29 @@
+{% extends "_layouts/_nav-footer-cta.twig" %}
+
+{% block main %}
+    {% include "_components/_page-heading.twig" with{
+        title: entry.title,
+        heading: entry.heading,
+    } %}
+
+
+
+    <section>
+        {{ entry.richText }}
+    </section>
+
+
+    <section>
+        {% for timeline in entry.contentRepeater %}
+        <div>
+            <div>
+            <h3>{{ timeline.timelineHeading }}</h3>
+                <span>{{ timeline.timelineYear }}</span>
+            </div>
+            <p>{{ timeline.timelineDescription }}</p>
+        </div>
+        {% endfor %}
+    </section>
+
+
+{% endblock %}

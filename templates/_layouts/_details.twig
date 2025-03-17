@@ -1,0 +1,43 @@
+{% extends "_layouts/_nav-footer-cta.twig" %}
+
+{% block main %}
+    {% include "_components/_page-heading.twig" with{
+        title: entry.title,
+        heading: entry.categorySelector.one.title
+    } %}
+
+    <section>
+        {% if entry.contentRepeaterOptional is not empty %}
+            {% for content in entry.contentRepeaterOptional.all() %}
+
+                {% if content.heading is not empty %}
+                <div>
+                <h3>{{ content.heading }}</h3>
+                <p>{{ content.text }}</p>
+                </div>
+                {% endif %}
+                {% if content.iconField is not empty %}
+                    <a href="{{ content.href }}" class="link">
+                        <i class="icon fas fa-{{ content.iconField }}"></i>
+                        <span>{{ content.href.label }}</span>
+                    </a>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+
+    </section>
+
+    <section>
+        {{ entry.richText }}
+
+</section>
+    <section>
+        <div class="grid">
+            {% for image in entry.images %}
+                <img src="{{ image.url }}" alt="{{ image.title }}">
+            {% endfor %}
+        </div>
+    </section>
+
+
+{% endblock %}

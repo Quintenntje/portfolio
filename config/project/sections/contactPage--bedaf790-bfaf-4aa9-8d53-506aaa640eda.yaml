@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 136bfa9c-6e23-4e00-ac2f-388f59a17c2a # Contact Page
+handle: contactPage
+maxAuthors: 1
+name: 'Contact Page'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  94f96324-ba1c-4e95-bce0-85caf50f9a97: # Quinten Claes
+    enabledByDefault: true
+    hasUrls: true
+    template: _layouts/_contact.twig
+    uriFormat: contact
+type: single

@@ -1,0 +1,53 @@
+color: pink
+fieldLayouts:
+  5cdeebcc-073a-4124-b7be-ea76ea09e518:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-03-13T20:09:50+00:00'
+            elementCondition: null
+            fieldUid: bd0ef55f-5545-4270-a7a3-67c7d2fa7733 # Icon Field
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ec5bd382-f4bc-4cdf-8cfa-647a87f9f42c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-13T20:09:50+00:00'
+            elementCondition: null
+            fieldUid: 943728f2-6d55-4e4c-9e18-62e772182e54 # Link
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d9beeb13-84be-4c0b-90f7-e647d86f5961
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5c1f0418-721b-409e-ac31-c488b0f81395
+        userCondition: null
+handle: iconLink
+hasTitleField: false
+icon: link
+name: 'Icon Link'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{href.label}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

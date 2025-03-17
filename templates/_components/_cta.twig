@@ -1,0 +1,8 @@
+{% import "_macros/_general.twig" as general  %}
+<section class="cta">
+    <div class="cta__content container grid">
+       <h2 class="cta__title">{{ ctaTitle }}</h2>
+        {{ general.link(ctaLink, "_blank", ctaLink.label, "primary") }}
+    </div>
+</section>
+

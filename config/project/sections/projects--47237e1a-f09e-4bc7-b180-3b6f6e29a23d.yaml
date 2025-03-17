@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: ee02f842-0753-4ff6-a9f6-5591f2e3f40b # Detail Page
+handle: projects
+maxAuthors: 1
+name: Projects
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  94f96324-ba1c-4e95-bce0-85caf50f9a97: # Quinten Claes
+    enabledByDefault: true
+    hasUrls: true
+    template: _layouts/_details.twig
+    uriFormat: 'projects/{slug}'
+type: channel

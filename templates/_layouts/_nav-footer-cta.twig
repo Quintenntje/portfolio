@@ -1,0 +1,32 @@
+{% extends "_layouts/_base.twig" %}
+
+{% block body %}
+
+    {% set navItems = craft.entries().section('navigation').all() %}
+    {% include "_partials/_nav.twig" with {
+        navItems: navItems
+    } %}
+
+
+    <a href="#{{ skipToContent.skipToContentId }}" class="skip-to-content">{{ skipToContent.skipToContentText }}</a>
+
+    <main id="{{ skipToContent.skipToContentId }}" class="main container">
+        {% block main %}
+
+        {% endblock %}
+    </main>
+
+    {% if craft.app.request.pathInfo != 'contact' %}
+        {% set cta = craft.entries().section('cta').one() %}
+        {% include "_components/_cta.twig" with {
+            ctaTitle: cta.title,
+            ctaLink: cta.href
+        } %}
+
+    {% endif %}
+
+    {% include "_partials/_footer.twig" with {
+        footerCopyright: footer.footerCopyright,
+    } %}
+
+{% endblock %}

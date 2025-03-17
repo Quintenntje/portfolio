@@ -1,0 +1,70 @@
+columnSuffix: null
+handle: contentRepeater
+instructions: null
+name: 'Content Repeater'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - e5f74c53-e1d9-45b7-9ac9-67cdf7e90697 # Card
+    -
+      __assoc__:
+        -
+          - uid
+          - 16430802-9249-41c3-a022-8c5a8ec13220 # Image Card
+    -
+      __assoc__:
+        -
+          - uid
+          - e31e5c43-6391-4464-90b0-90ed0614904b # Heading-Text
+    -
+      __assoc__:
+        -
+          - uid
+          - 46c759ab-7bc6-43b4-95f0-2b98585ab22d # TimeLine
+    -
+      __assoc__:
+        -
+          - uid
+          - c1be1d0f-0588-41c6-b519-344ab52d7624 # form Input
+    -
+      __assoc__:
+        -
+          - uid
+          - 1c060abf-4540-478a-bca5-dd35b9b21caa # Form
+    -
+      __assoc__:
+        -
+          - uid
+          - de1f43b8-cac0-41dd-b24d-b830af3f5c50 # page Heading
+    -
+      __assoc__:
+        -
+          - uid
+          - 382e8a48-6e26-4555-b1f6-078b951a4f13 # Home Page sections
+    -
+      __assoc__:
+        -
+          - uid
+          - b422501e-d0ab-420f-9286-dcffa1dd1e74 # Links
+    -
+      __assoc__:
+        -
+          - uid
+          - dddbdeda-cff4-47ba-9c30-4545f3b70774 # Icon Link
+  includeTableView: false
+  maxEntries: null
+  minEntries: 1
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

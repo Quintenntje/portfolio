@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: de1f43b8-cac0-41dd-b24d-b830af3f5c50 # page Heading
+  -
+    uid: c1be0904-b687-400e-97fe-6f2c01b7110d # Text Page
+handle: aboutPage
+maxAuthors: 1
+name: 'About me Page'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  94f96324-ba1c-4e95-bce0-85caf50f9a97: # Quinten Claes
+    enabledByDefault: true
+    hasUrls: true
+    template: _layouts/_text-page.twig
+    uriFormat: about
+type: single

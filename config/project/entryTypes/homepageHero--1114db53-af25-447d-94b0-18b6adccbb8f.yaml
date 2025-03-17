@@ -1,0 +1,115 @@
+color: lime
+fieldLayouts:
+  c2d36b63-5836-4d51-bf4f-bb6bdf78f4da:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-03-09T20:53:14+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 3932fd7e-73f4-47aa-a344-cb6f9ac41eff
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-09T20:57:57+00:00'
+            elementCondition: null
+            fieldUid: 2111f3c3-64f4-4fc7-b472-16660716f927 # Simple Text
+            handle: heroHeadingSmall
+            includeInCards: false
+            instructions: null
+            label: 'Hero Heading Small'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4a3962d1-1eea-4a3c-b626-324561f364e2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-09T20:57:57+00:00'
+            elementCondition: null
+            fieldUid: 2111f3c3-64f4-4fc7-b472-16660716f927 # Simple Text
+            handle: heroHeading
+            includeInCards: false
+            instructions: null
+            label: 'Hero Heading'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 99358a15-fe69-4635-971d-bd45bafd3cef
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-09T20:57:57+00:00'
+            elementCondition: null
+            fieldUid: 48af5fbc-7222-4fbb-a1b3-3580bde6cd8f # Image
+            handle: heroImage
+            includeInCards: false
+            instructions: null
+            label: 'Hero Image'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f28f6841-0a06-464b-8cc6-66ce045ef18e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-13T12:24:31+00:00'
+            elementCondition: null
+            fieldUid: f74408ae-3717-4d24-8bfb-1ff94df9ca21 # Content Repeater
+            handle: heroLinks
+            includeInCards: false
+            instructions: null
+            label: 'Hero Links'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4b33769b-8cab-499e-b436-d6d799f9699e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0d8c8476-98c2-49d0-941a-62e82044175c
+        userCondition: null
+handle: homepageHero
+hasTitleField: true
+icon: house
+name: 'Homepage Hero'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

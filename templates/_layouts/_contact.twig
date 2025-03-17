@@ -1,0 +1,66 @@
+{% extends "_layouts/_nav-footer-cta.twig" %}
+{#  border: 1px solid red; background: #ffeeee#}
+
+
+
+{% block main %}
+
+    {% set pageHeader = entry.contentRepeater.type('pageHeading').one() %}
+
+    {% include "_components/_page-heading.twig" with{
+        title: entry.title,
+        heading: pageHeader.heading
+    } %}
+<div>
+  <section>
+      <h2>{{ entry.contactInfoHeading }}</h2>
+      <ul>
+          <li>
+              <a class="link" href="{{ entry.emailLink }}">{{ entry.emailLink.label }}</a>
+          </li>
+            <li>
+                <a class="link" href="{{ entry.phoneLink }}">{{ entry.phoneLink.label }}</a>
+            </li>
+
+
+          {% for socialLink in contact.socialLinks %}
+              <li>
+                  <i class="icon icon--big icon--spacing-right fa-brands fa-{{ socialLink.iconField }}"></i>
+                    <a class="link" href="{{ socialLink.href.url }}">{{ socialLink.href.label }}</a>
+              </li>
+          {% endfor %}
+      </ul>
+
+  </section>
+    {% set contactForm = entry.contentRepeater.type("form").one %}
+    <section>
+
+        <form class="form" action="{{ contactForm.action }}">
+            {% set fields = contactForm.contentRepeater.all() %}
+
+            {% for field in fields %}
+                {% if field.inputType == "textarea"  %}
+                    <label class="form__group">
+                        <span class="form__group__label">{{ field.label }}</span>
+                        <textarea class="input input--transparent input--big" name="{{ field.title }}" placeholder="{{ field.placeholder }}" required></textarea>
+                    </label>
+
+                {% else %}
+                    <label class="form__group">
+                        <span class="form__group__label">{{ field.label }}</span>
+                        <input class="input input--transparent" type="{{ field.inputType }}" name="{{ field.title  }}" placeholder="{{ field.placeholder }}" required>
+                    </label>
+
+                {% endif %}
+            {% endfor %}
+            <div>
+                <button class="btn btn--primary">{{ contactForm.href.label }}</button>
+            </div>
+        </form>
+
+    </section>
+</div>
+
+
+
+{% endblock %}

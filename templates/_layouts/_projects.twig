@@ -1,0 +1,37 @@
+{% extends "_layouts/_nav-footer-cta.twig" %}
+
+{% block main %}
+    <section>
+        {% set pageHeader = entry.contentRepeater.one() %}
+    {% include "_components/_page-heading.twig" with{
+        title: pageHeader.title,
+        heading: pageHeader.heading
+    } %}
+    </section>
+
+    <section>
+      <ul class="grid grid--larger">
+          {% for project in craft.entries().section('projects').all() %}
+              <li>
+                  {% include "_components/_image-card" with{
+                      title: project.title,
+                      image: project.images.one().url,
+                      tag: project.categorySelector.one().title,
+                      link: project.url
+                  } %}
+              </li>
+          {% endfor %}
+          {% for project in craft.entries().section('projects').all() %}
+              <li>
+                  {% include "_components/_image-card" with{
+                      title: project.title,
+                      image: project.images.one().url,
+                      tag: project.categorySelector.one().title,
+                      link: project.url
+                  } %}
+              </li>
+          {% endfor %}
+      </ul>
+    </section>
+
+{% endblock %}

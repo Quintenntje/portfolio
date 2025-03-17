@@ -1,0 +1,115 @@
+color: sky
+fieldLayouts:
+  c392be58-6aed-4dee-a93b-baa8db31e06e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-03-10T20:56:29+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 48832b5e-449f-4fe7-a96d-f4be048af570
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-10T20:59:26+00:00'
+            elementCondition: null
+            fieldUid: f74408ae-3717-4d24-8bfb-1ff94df9ca21 # Content Repeater
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2754771d-a439-4a0a-a843-23c79d2cf053
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-10T20:59:26+00:00'
+            elementCondition: null
+            fieldUid: 2111f3c3-64f4-4fc7-b472-16660716f927 # Simple Text
+            handle: contactInfoHeading
+            includeInCards: false
+            instructions: null
+            label: 'Contact Info Heading'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 814c5304-d6d6-4a0d-9d13-ee7b0b4e5696
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-10T20:59:26+00:00'
+            elementCondition: null
+            fieldUid: bf628ec7-6c25-4be3-b279-5310856f6f0c # Contact Link
+            handle: emailLink
+            includeInCards: false
+            instructions: null
+            label: 'Email Link'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 97816420-fe04-43d6-ad25-af945e1e5e54
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-03-10T20:59:26+00:00'
+            elementCondition: null
+            fieldUid: bf628ec7-6c25-4be3-b279-5310856f6f0c # Contact Link
+            handle: phoneLink
+            includeInCards: false
+            instructions: null
+            label: 'Phone Link'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1006281f-d5db-4c09-8f6c-0c13a957c344
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c8b17f8b-8463-4dae-9a57-c01ea0aae48d
+        userCondition: null
+handle: contactPage
+hasTitleField: true
+icon: address-book
+name: 'Contact Page'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

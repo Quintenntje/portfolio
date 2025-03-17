@@ -1,0 +1,4 @@
+{% macro link(href, target = '_self', title, variant) %}
+    <a class="btn btn--{{ variant }}" href="{{ href }}" target="{{ target }}" {% if target == "_blank" %}rel="noopener noreferrer"{% endif %}
+    >{{ title }}</a>
+{% endmacro %}
