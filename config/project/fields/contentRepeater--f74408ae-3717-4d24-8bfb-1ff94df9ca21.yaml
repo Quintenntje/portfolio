@@ -57,6 +57,11 @@ settings:
         -
           - uid
           - dddbdeda-cff4-47ba-9c30-4545f3b70774 # Icon Link
+    -
+      __assoc__:
+        -
+          - uid
+          - 1114db53-af25-447d-94b0-18b6adccbb8f # Homepage Hero
   includeTableView: false
   maxEntries: null
   minEntries: 1

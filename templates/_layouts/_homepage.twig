@@ -5,17 +5,19 @@
 
     <section class="hero container">
         <div>
-            <span>{{ entry.heroHeadingSmall }}</span>
-            <h1>{{ entry.heroHeading }}</h1>
+            {% set hero = entry.contentRepeater|filter(block => block.title == "hero")|first %}
+
+            <span>{{ hero.heroHeadingSmall }}</span>
+            <h1>{{ hero.heroHeading }}</h1>
             <div class="hero__links">
-            {% for heroLink in entry.heroLinks %}
+            {% for heroLink in hero.heroLinks %}
                 {{ general.link(heroLink.href, "_self", heroLink.href.label, heroLink.linkVariant) }}
             {% endfor %}
             </div>
 
         </div>
         <div>
-            <img src="{{ entry.heroImage.one().url }}" alt="{{ entry.heroImage.title }}">
+            <img src="{{ hero.heroImage.one().url }}" alt="{{ hero.heroImage.title }}">
         </div>
     </section>
 

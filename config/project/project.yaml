@@ -1,4 +1,4 @@
-dateModified: 1742160180
+dateModified: 1742246110
 email:
   fromEmail: quinten.claes@student.arteveldehs.be
   fromName: 'Quinten Claes'
@@ -16,6 +16,7 @@ meta:
     0e354582-6ecc-4a8d-9c52-6837dc3d96bb: Media # Media
     1c060abf-4540-478a-bca5-dd35b9b21caa: Form # Form
     3f1c8ffa-8f1e-43c7-b90c-abcb45688a43: CTA # CTA
+    5bb7fe37-a28c-44ef-aa09-87350260b7e8: HomePage # HomePage
     6e6a2472-ab6f-494f-ac52-497799db33dd: 'Public Schema' # Public Schema
     8bc8a329-4803-4e5f-a86f-613a2321b6f2: Simple # Simple
     015abee2-d29e-411e-87c9-4bfab8d94e49: 'Short Description' # Short Description
